@@ -1,3 +1,5 @@
+# Fast Fourier Transform. Takes a wave, applies the FFT and then reconstructs the different waves that made up the given wave.
+
 import numpy as np
 import matplotlib.pyplot as plt
 from operator import add
