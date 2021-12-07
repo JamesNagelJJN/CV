@@ -1,3 +1,5 @@
+# Final year project. This piece of code takes the fusing of two colliding nuclei and returns the resulting eigenvalues and vectors over a short distance.
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import sparse
