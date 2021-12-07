@@ -1,3 +1,5 @@
+# Monte Carlo simulation. This piece of code takes a number of iterations as input and returns a graph of the volume of a sphere from the 2nd to the 15 dimention along with the correct values calculated by the gamma function.
+
 import numpy as np
 import random
 import matplotlib.pyplot as plt
