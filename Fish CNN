@@ -39,8 +39,6 @@ def load_images_from_folder(img_size,class_name,path_to_img):
         X.append(features)
         y.append(label)
     random.shuffle(training_data)
-    plt.imshow(training_data[0][0])
-    plt.show()
     return X,y
 
 
@@ -50,7 +48,6 @@ def cnn(batch_num, epochs, X, y):
 
     X = np.array(X)
     y = np.array(y)
-    print(X.shape)
 
     X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.25)
 
