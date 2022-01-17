@@ -1,14 +1,15 @@
+from __future__ import absolute_import, division, print_function
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-from keras.layers import Dense, Flatten, Conv2D, MaxPooling2D
+from keras.layers import Dense, Flatten, Conv2D, MaxPooling2D, \
 from keras import Sequential
 from sklearn.model_selection import train_test_split
 import random
 
-path_data_GT = r'\Users...'
-path_data = r'\Users...'
+path_data_GT = r'\Users\James\Desktop\Datasets\fish'
+path_data = r'\Users\James\Desktop\Datasets\GT'
 
 class_names = ['Black Sea Sprat','Gilt-Head Bream',
                'Hourse Mackerel','Red Mullet','Red Sea Bream',
@@ -18,11 +19,12 @@ class_names_GT = ['Black Sea Sprat GT','Gilt-Head Bream GT',
                'Hourse Mackerel GT','Red Mullet GT','Red Sea Bream GT',
                'Sea Bass GT','Shrimp GT','Striped Red Mullet GT','Trout GT']
 
-IMG_SIZE = 50
-IMG_SIZE_LIST = []
+img_size = 30
+img_size_list = []
+batch_num = 42
+epochs = 30
 
-
-def load_images_from_folder(IMG_SIZE,class_name,path_to_img):
+def load_images_from_folder(img_size,class_name,path_to_img):
     training_data = []
     X = []
     y = []
@@ -31,17 +33,18 @@ def load_images_from_folder(IMG_SIZE,class_name,path_to_img):
         class_num = class_name.index(category)
         for img in os.listdir(path):
             img = cv2.imread(os.path.join(path, img))
-            img = cv2.resize(img, (IMG_SIZE,IMG_SIZE), interpolation = cv2.INTER_AREA)
+            img = cv2.resize(img, (img_size,img_size), interpolation = cv2.INTER_AREA)
             training_data.append([img,class_num])
     for features,label in training_data:
         X.append(features)
         y.append(label)
-    print(np.array(X).shape)
     random.shuffle(training_data)
+    plt.imshow(training_data[0][0])
+    plt.show()
     return X,y
 
 
-def cnn(IMG_SIZE, X, y):
+def cnn(batch_num, epochs, X, y):
 
     val_stats = []
 
@@ -53,9 +56,9 @@ def cnn(IMG_SIZE, X, y):
 
     model = Sequential()
 
-    model.add(Conv2D(32,(2,2), input_shape=(IMG_SIZE,IMG_SIZE,3), activation='relu'))
+    model.add(Conv2D(32,(3,3), input_shape=(img_size,img_size,3), activation='relu'))
     model.add(MaxPooling2D(2,2))
-    model.add(Conv2D(32,(2,2), activation='relu'))
+    model.add(Conv2D(64,(1,1), input_shape=(img_size,img_size,3), activation='relu'))
     model.add(MaxPooling2D(2,2))
     model.add(Flatten())
     model.add(Dense(units=512, activation='relu'))
@@ -64,15 +67,17 @@ def cnn(IMG_SIZE, X, y):
     model.compile(optimizer='adam',
                   loss='sparse_categorical_crossentropy',
                   metrics=['accuracy'])
-    history = model.fit(X_train, y_train, epochs=20, batch_size=250, verbose=1, validation_data=(X_test,y_test))
+    history = model.fit(X_train, y_train, epochs=epochs, batch_size=batch_num, verbose=1, validation_data=(X_test,y_test))
     val_loss, val_acc = model.evaluate(X_test,y_test)
     val_stats.append([val_loss,val_acc])
     return (history, val_stats)
 
+batch_list = []
+accuracy_value = []
 
 for i in range(5):
-    X,y = load_images_from_folder(IMG_SIZE,class_names_GT,path_data_GT)
-    history, new_val_stats = cnn(IMG_SIZE,X,y)
+    X,y = load_images_from_folder(img_size,class_names,path_data)
+    history, new_val_stats = cnn(batch_num, epochs,X,y)
 
     val_losses = []
     val_accuracy = []
@@ -80,23 +85,24 @@ for i in range(5):
     for w,v in new_val_stats:
         val_losses.append(w)
         val_accuracy.append(v)
-
-    #plt.plot(history.history['accuracy'], label='accuracy')
-    plt.plot(history.history['val_accuracy'], label=IMG_SIZE)
-    IMG_SIZE_LIST.append(IMG_SIZE)
-    IMG_SIZE -= 10
+    accuracy_value.append(max(val_accuracy))
+    plt.plot(history.history['val_accuracy'], label=img_size)
+    img_size_list.append(img_size)
+    batch_list.append(batch_num)
+    img_size += 10
 
 
 handles, labels = plt.gca().get_legend_handles_labels()
+labels, handles = zip(*sorted(zip(labels, handles), key=lambda t: t[0]))
 
-reversed_labels = list(reversed(labels))
 
-x_ticks = [0,5,10,15,20]
+x_ticks = [0,5,10,15,20,25,30]
 y_ticks = [0,0.25,0.5,0.75,1]
 plt.xlabel('Epochs')
 plt.ylabel('Accuracy')
 plt.xticks(x_ticks)
 plt.yticks(y_ticks)
-plt.title('Accuracy of fish classiciation CNN BLACK-WHITE')
-plt.legend(labels,loc='lower right')
+plt.title('Accuracy of fish classification CNN RGB')
+plt.legend(handles[::-1],labels[::-1], title='IMG_SIZE', loc='lower right')
 plt.show()
+
