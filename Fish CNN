@@ -8,8 +8,8 @@ from keras import Sequential
 from sklearn.model_selection import train_test_split
 import random
 
-path_data_GT = r'\Users\James\Desktop\Datasets\fish'
-path_data = r'\Users\James\Desktop\Datasets\GT'
+path_data_GT = r'\Users...'
+path_data = r'\Users...'
 
 class_names = ['Black Sea Sprat','Gilt-Head Bream',
                'Hourse Mackerel','Red Mullet','Red Sea Bream',
