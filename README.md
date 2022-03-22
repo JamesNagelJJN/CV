@@ -3,7 +3,7 @@ James Nagel
 Tableau Public Page - [Tableau](https://public.tableau.com/app/profile/james.nagel)
 
 -----------------------------------------
-###**Data Science**
+## **Data Science**
 
 **Contents**: \
 • Goodreads Book Dataset
@@ -17,7 +17,7 @@ Tableau Public Page - [Tableau](https://public.tableau.com/app/profile/james.nag
 • Regex \
 • Lambda functions
 ---------------------------------------
-###**Machine Learning** 
+## **Machine Learning** 
 
 **Contents**: \
 • CNN\
@@ -37,7 +37,7 @@ Tableau Public Page - [Tableau](https://public.tableau.com/app/profile/james.nag
 • Resizing and assigning labels to images
 
 -----------------------------------------
-###**University Code**###
+## **University Code**
 
 **Contents**: \
 • Fast Fourier Transform \
