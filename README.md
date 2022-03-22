@@ -1,6 +1,6 @@
 James Nagel
 ------------------------------------------
-Tableau Public Page - [Tableau](https://public.tableau.com/app/profile/james.nagel)
+Tableau Public Page - [Tableau](https://public.tableau.com/app/profile/james.nagel) \
 Linkedin Page - [Linkedin](https://www.linkedin.com/in/james-nagel-5b84a4206/)
 
 ## **Data Science**
