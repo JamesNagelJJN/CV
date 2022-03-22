@@ -37,7 +37,7 @@ Tableau Public Page - [Tableau](https://public.tableau.com/app/profile/james.nag
 • Resizing and assigning labels to images
 
 -----------------------------------------
-###**University Code**
+###**University Code**###
 
 **Contents**: \
 • Fast Fourier Transform \
@@ -55,5 +55,5 @@ Tableau Public Page - [Tableau](https://public.tableau.com/app/profile/james.nag
 
 **Skills**: \
 • Classes and functions \
-• Able to create a neural network only using NumPy\
+• Able to create a neural network only using NumPy
 
