@@ -2,7 +2,7 @@ James Nagel
 ------------------------------------------
 Tableau Public Page - [Tableau](https://public.tableau.com/app/profile/james.nagel)
 
------------------------------------------
+
 ## **Data Science**
 
 **Contents**: \
@@ -16,7 +16,7 @@ Tableau Public Page - [Tableau](https://public.tableau.com/app/profile/james.nag
 • EDA \
 • Regex \
 • Lambda functions
----------------------------------------
+
 ## **Machine Learning** 
 
 **Contents**: \
@@ -36,7 +36,6 @@ Tableau Public Page - [Tableau](https://public.tableau.com/app/profile/james.nag
 • Importing thousands of images \
 • Resizing and assigning labels to images
 
------------------------------------------
 ## **University Code**
 
 **Contents**: \
