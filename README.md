@@ -7,15 +7,20 @@ Linkedin Page - [Linkedin](https://www.linkedin.com/in/james-nagel-5b84a4206/)
 
 **Contents**: \
 • Goodreads Book Dataset
+• Youtube Trending
 
 **Packages**: \
 • Pandas \
-• NumPy
+• NumPy \
+• Seaborn \
+• Matplotlib
 
 **Skills**: \
 • EDA \
 • Regex \
-• Lambda functions
+• Lambda functions \
+• Data visulisation \
+• Pivot Tables
 
 ## **Machine Learning** 
 
@@ -23,11 +28,13 @@ Linkedin Page - [Linkedin](https://www.linkedin.com/in/james-nagel-5b84a4206/)
 • CNN\
 • Clustering\
 • Linear regression
+• NLP
 
 **Packages**: \
 • Keras \
 • sklearn \
 • NumPy \
+• nltk \
 • Matplotlib \
 • Pandas \
 • cv2 
@@ -54,5 +61,7 @@ Linkedin Page - [Linkedin](https://www.linkedin.com/in/james-nagel-5b84a4206/)
 
 **Skills**: \
 • Classes and functions \
-• Able to create a neural network only using NumPy
+• Creating a neural network only using NumPy \
+• Animated graphing
+• Forecasting 
 
