@@ -6,7 +6,7 @@ Linkedin Page - [Linkedin](https://www.linkedin.com/in/james-nagel-5b84a4206/)
 ## **Data Science**
 
 **Contents**: \
-• Goodreads Book Dataset
+• Goodreads Book Dataset \
 • Youtube Trending
 
 **Packages**: \
