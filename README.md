@@ -62,6 +62,6 @@ Linkedin Page - [Linkedin](https://www.linkedin.com/in/james-nagel-5b84a4206/)
 **Skills**: \
 • Classes and functions \
 • Creating a neural network only using NumPy \
-• Animated graphing
+• Animated graphing \
 • Forecasting 
 

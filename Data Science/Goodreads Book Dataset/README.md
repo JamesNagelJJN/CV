@@ -1,8 +1,10 @@
-Goodreads Book Dataset Cleaning
+##Goodreads Book Dataset Cleaning
 
-1 ) Ensured all columns contained only non-null values
-2 ) Coverted columns to the correct data type using regex
-3 ) Used lambda functions to ensure books of the same language had the same language code
+Tableau Public - [Tableau](https://public.tableau.com/app/profile/james.nagel/viz/BookInformation/Dashboard1)
+------------------------------------------------
+1 ) Ensured all columns contained only non-null values \
+2 ) Coverted columns to the correct data type using regex \
+3 ) Used lambda functions to ensure books of the same language had the same language code \
 
 Data Visulization of Project - Tableau
 
