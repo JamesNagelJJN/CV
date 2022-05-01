@@ -1,27 +1,47 @@
-## **Goodreads Book Dataset Cleaning**
-
-Tableau Public - [Tableau](https://public.tableau.com/app/profile/james.nagel/viz/BookInformation/Dashboard1)
+## **Fast Fourier Transform**
 ------------------------------------------------
-1 ) Ensured all columns contained only non-null values \
-2 ) Converted columns to the correct data type using regex \
-3 ) Used lambda functions to ensure books of the same language had the same language code \
 
-Data Visulization of Project - Tableau
+**The Project**
 
-For this project I displayed only publishers with over 1,000,000 reviews of their published books in total.
-Along with this, authors is displayed with a matching colour scheme to the publishers. 
-When a Publisher is selected on the left hand column, the subsiquent authors with books published with that publisher are displayed on the right section.
-Along with the Author and book title, their rating count and average ratings of each book are displayed.
+In its most basic form the fast fourier transform can efficiently break down a wave into its
+constituent elements. For this project we were given a wave and we have to deconstruct the wave
+and display the waves that make it up, and then rebuild it.
+----------------------------------------------------------
+## **Final year project - Nuclear physics**
+----------------------------------------------------------
+**The Project**
 
-Problems
+When two footballs collide we can use basic kinematic physics to predict the outcome of the 
+collision. When we deal with particles, in this case neutrons, we have to use Schrodinger equation
+to understand what is happening to the particles. I was challenged with calculaing the eigen values
+and energies of the two particles.
+-------------------------------------------------------------
+## **Monte Carlo simulation**
+--------------------------------------------------------------
 
-1 ) Some books in the dataset include the artists for the books along with the author in the Author column. 
-    This is difficult as not only this, some of the books are co-written.
-    Because of this only keeping the first Author in each row would mis represent Authors who may have written books. On the other hand, splitting the Authors
-    up and saying all names included for each book were an Author there would be a mis representation of statistics due to there being mulitple instances of 
-    the same book.
-    
-    How to approach fixing this. If I had full control of the data pipe line and how the data was scraped off the web then names of each Author (if multiple listed)
-    could be looked into and if it is discovered they are an artist, leave them from the Author column and create another for artist. If they are a co-author then
-    each instance of the book/series of books should include all names of co-authors, which is fine. This is alright because there should be no other version of the book
-    where all the Authors didn't write that book, where as artists can change if a new cover design comes out.
+**The Project**
+
+The Monte Carlo method is a method of random sampling to obtain results. For this project
+we were tasked with calculating the volume of a sphere up to the 15th dimension.
+
+----------------------------------------------------------
+## **Statistical analysis of Tesco PLC stock price**
+----------------------------------------------------------
+**The Project**
+
+We were tasked with analysing a company's stock. I chose Tesco. In this project
+we had to forecast the stock price, calcualte put and call options and explore the 
+data using statistical methods.
+
+----------------------------------------------------------
+## **XOR Gatte Neural network**
+----------------------------------------------------------
+**The Project**
+
+We had to create a neural network that is trained using the metropalis 
+algorithm. The metropalis algorithm takes the overall neural network as 
+a system that has energy (Certain factors go in to calculating the energy). 
+The weights are assigned randomly and then random changes are made to the weights.
+Certain random movements of the weights will be accepted, as long as it lowers the energy
+of the system. Along with this I created a user-friendly output.
+
