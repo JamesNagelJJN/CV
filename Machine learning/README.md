@@ -12,7 +12,7 @@ a dataset I found on Kaggle.
 **Skills**: \
 • Importing images and reducing their resolution \
 • Developed a CNN that can classify 9 different species of fish with a 99% accuracy \
-• Data visualization \
+• Data visualization 
 
 ----------------------------------------------------------
 ## **Predicting the IMDb rating of a movie, based on other popular websites**
@@ -25,5 +25,5 @@ Rotten Tomatoes, Metacritic, Hidden Gem. This prediction can be made using linea
 **Skills**: \
 • Normalisation \
 • Linear regression \
-• Data visualization \
+• Data visualization 
 

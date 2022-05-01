@@ -1,23 +1,24 @@
 ## **Fast Fourier Transform**
-------------------------------------------------
 
 **The Project**
 
 In its most basic form the fast fourier transform can efficiently break down a wave into its
 constituent elements. For this project we were given a wave and we have to deconstruct the wave
 and display the waves that make it up, and then rebuild it.
+
 ----------------------------------------------------------
 ## **Final year project - Nuclear physics**
-----------------------------------------------------------
+
 **The Project**
 
 When two footballs collide we can use basic kinematic physics to predict the outcome of the 
 collision. When we deal with particles, in this case neutrons, we have to use Schrodinger equation
 to understand what is happening to the particles. I was challenged with calculaing the eigen values
 and energies of the two particles.
+
 -------------------------------------------------------------
 ## **Monte Carlo simulation**
---------------------------------------------------------------
+
 
 **The Project**
 
@@ -26,16 +27,16 @@ we were tasked with calculating the volume of a sphere up to the 15th dimension.
 
 ----------------------------------------------------------
 ## **Statistical analysis of Tesco PLC stock price**
-----------------------------------------------------------
+
 **The Project**
 
 We were tasked with analysing a company's stock. I chose Tesco. In this project
-we had to forecast the stock price, calcualte put and call options and explore the 
+we had to forecast the stock price, calculate put and call options and explore the 
 data using statistical methods.
 
 ----------------------------------------------------------
-## **XOR Gatte Neural network**
-----------------------------------------------------------
+## **XOR Gate Neural network**
+
 **The Project**
 
 We had to create a neural network that is trained using the metropalis 
