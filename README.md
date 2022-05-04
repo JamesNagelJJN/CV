@@ -19,7 +19,7 @@ Linkedin Page - [Linkedin](https://www.linkedin.com/in/james-nagel-5b84a4206/)
 • EDA \
 • Regex \
 • Lambda functions \
-• Data visulisation \
+• Data visualisation \
 • Pivot Tables
 
 ## **Machine Learning** 
