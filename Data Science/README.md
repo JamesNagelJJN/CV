@@ -19,8 +19,6 @@ Problems
 -------------------------------------------------
 ## **Goodreads Book Dataset Cleaning**
 
-**The Project**
-
 This project is on a dataset which includes thousands of books from Goodreads.
 Goodreads is a website where users can review and give books a rating.
 
@@ -30,9 +28,6 @@ Goodreads is a website where users can review and give books a rating.
 • Lambda functions 
 
 ## **YouTube Trending**
-
-
-**The Project**
 
 YouTube's trending page is an imfamous part of YouTube that creators strive to reach.
 When a video reaches "trending" status it means an algorithm has picked out
@@ -49,8 +44,6 @@ for the UK from 2017-2018.
 
 ## **Fish CNN**
 
-**The Project**
-
 For fishermen it may be an easy task when asked to differencitate between fish. For most it
 is not so easy. Even if there were to be a task that was easy for most, it may be time consuming.
 That's where machine learning comes in, more specifically, a convolutional neural network.
@@ -63,8 +56,6 @@ a dataset I found on Kaggle.
 • Data visualisation
 
 ## **Predicting the IMDb rating of a movie, based on other popular websites**
-
-**The Project**
 
 Predicting the IMDb rating of a movie, based on other popular websites. The website in question are
 Rotten Tomatoes, Metacritic, Hidden Gem. This prediction can be made using linear regression.
