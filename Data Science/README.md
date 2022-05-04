@@ -29,7 +29,6 @@ Goodreads is a website where users can review and give books a rating.
 • Regex \
 • Lambda functions 
 
--------------------------------------------------
 ## **YouTube Trending**
 ------------------------------------------------
 
@@ -48,7 +47,6 @@ for the UK from 2017-2018.
 • Data visualisation \
 • Pivot Tables
 
--------------------------------------------------
 ## **Fish CNN**
 ------------------------------------------------
 **The Project**
@@ -64,7 +62,6 @@ a dataset I found on Kaggle.
 • Developed a CNN that can classify 9 different species of fish with a 99% accuracy \
 • Data visualisation
 
-----------------------------------------------------------
 ## **Predicting the IMDb rating of a movie, based on other popular websites**
 ----------------------------------------------------------
 **The Project**
