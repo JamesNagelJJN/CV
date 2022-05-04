@@ -18,7 +18,7 @@ Problems
 
 -------------------------------------------------
 ## **Goodreads Book Dataset Cleaning**
-------------------------------------------------
+
 **The Project**
 
 This project is on a dataset which includes thousands of books from Goodreads.
@@ -30,7 +30,7 @@ Goodreads is a website where users can review and give books a rating.
 • Lambda functions 
 
 ## **YouTube Trending**
-------------------------------------------------
+
 
 **The Project**
 
@@ -48,7 +48,7 @@ for the UK from 2017-2018.
 • Pivot Tables
 
 ## **Fish CNN**
-------------------------------------------------
+
 **The Project**
 
 For fishermen it may be an easy task when asked to differencitate between fish. For most it
@@ -63,7 +63,7 @@ a dataset I found on Kaggle.
 • Data visualisation
 
 ## **Predicting the IMDb rating of a movie, based on other popular websites**
-----------------------------------------------------------
+
 **The Project**
 
 Predicting the IMDb rating of a movie, based on other popular websites. The website in question are
