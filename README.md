@@ -7,7 +7,7 @@ Linkedin Page - [Linkedin](https://www.linkedin.com/in/james-nagel-5b84a4206/)
 
 **Contents**: \
 • Goodreads Book Dataset \
-• Youtube Trending
+• Youtube Trending \
 • CNN\
 • Clustering\
 • Linear regression \
