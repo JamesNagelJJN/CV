@@ -29,8 +29,7 @@ Linkedin Page - [Linkedin](https://www.linkedin.com/in/james-nagel-5b84a4206/)
 • Lambda functions \
 • Data visualisation \
 • Pivot Tables \
-• Importing thousands of images \
-• Resizing and assigning labels to images
+• Importing, resizing, and assigning labels to images
 
 ## **University Code**
 
