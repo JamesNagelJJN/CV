@@ -1,7 +1,7 @@
 ## **Goodreads Book Dataset Cleaning**
 
-Tableau Public - [Tableau](https://public.tableau.com/app/profile/james.nagel/viz/BookInformation/Dashboard1)
-------------------------------------------------
+Tableau Public Page - [Tableau](https://public.tableau.com/app/profile/james.nagel/viz/BookInformation/Dashboard1)
+
 ## **Goodreads Book Dataset Cleaning**
 
 This project is on a dataset which includes thousands of books from Goodreads.
