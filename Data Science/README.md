@@ -53,7 +53,8 @@ Rotten Tomatoes, Metacritic, Hidden Gem. This prediction can be made using linea
 
 ## **Office Supplies Sales**
 
-Tableau Public Page - [Tableau](Tableau Public Page - [Tableau](Tableau Public Page - [Tableau](https://public.tableau.com/app/profile/james.nagel/viz/BookInformation/Dashboard1)))
+Tableau Public Page - [Tableau](https://public.tableau.com/app/profile/james.nagel/viz/Officesuppliessalesdata_16439401237010/Dashboard1)
+
 
 This project was entirely done on Tableau as the initial data was clean enough to
 move straight to data visualisation
