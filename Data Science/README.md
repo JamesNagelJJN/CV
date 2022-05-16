@@ -1,6 +1,6 @@
 ## **Data Science Projects**
 
-Tableau Public Page - [Tableau](https://public.tableau.com/app/profile/james.nagel/viz/BookInformation/Dashboard1)
+[Tableau Public Page](https://public.tableau.com/app/profile/james.nagel/viz/BookInformation/Dashboard1)
 
 ## **Goodreads Book Dataset Cleaning**
 
@@ -53,7 +53,7 @@ Rotten Tomatoes, Metacritic, Hidden Gem. This prediction can be made using linea
 
 ## **Office Supplies Sales**
 
-Tableau Public Page - [Tableau](https://public.tableau.com/app/profile/james.nagel/viz/Officesuppliessalesdata_16439401237010/Dashboard1)
+[Tableau Office Supplies Sales](https://public.tableau.com/app/profile/james.nagel/viz/Officesuppliessalesdata_16439401237010/Dashboard1)
 
 
 This project was entirely done on Tableau as the initial data was clean enough to
