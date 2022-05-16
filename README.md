@@ -19,7 +19,8 @@ James Nagel
 • Matplotlib \
 • Keras \
 • sklearn \
-• OpenCV
+• Selenium \
+• OpenCV 
 
 **Skills**: \
 • EDA \
