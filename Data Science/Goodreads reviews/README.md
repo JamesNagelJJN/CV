@@ -4,7 +4,7 @@ So I set up a web scraping script using Selenium to search Google with the title
 of a book and collect the genre of the book. I did this for publishers with over 1,000,000
 total reviews across all their published books in the dataset.
 
-Once I obtained a new dataset that contained, the title of a book, the publisher the book
+Once I obtained a new dataset that contained the title of a book, the publisher the book
 was published with and the genres. With this I created a wordcloud that displays
 the most published genres of each publisher. 
 
