@@ -1,8 +1,10 @@
 ## **Data Science Projects**
 
-[Tableau Public Page](https://public.tableau.com/app/profile/james.nagel/viz/BookInformation/Dashboard1)
+[Tableau Public Page](https://public.tableau.com/app/profile/james.nagel)
 
 ## **Goodreads Book Dataset Cleaning**
+
+[Goodreads Books](https://public.tableau.com/app/profile/james.nagel/viz/BookInformation/Dashboard1)
 
 This project is on a dataset which includes thousands of books from Goodreads.
 Goodreads is a website where users can review and give books a rating. I set out
