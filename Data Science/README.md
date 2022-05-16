@@ -46,10 +46,10 @@ a dataset I found on Kaggle.
 ## **Predicting the IMDb rating of a movie, based on other popular websites**
 
 Predicting the IMDb rating of a movie, based on other popular websites. The website in question are
-Rotten Tomatoes, Metacritic, Hidden Gem. This prediction can be made using linear regression.
+Rotten Tomatoes and Metacritic. This prediction was made using linear regression.
 
 **Skills**: \
-• Normalisation \
+• Preprocessing \
 • Linear regression \
 • Data visualisation
 
