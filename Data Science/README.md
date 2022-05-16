@@ -51,3 +51,13 @@ Rotten Tomatoes, Metacritic, Hidden Gem. This prediction can be made using linea
 • Linear regression \
 • Data visualisation
 
+## **Office Supplies Sales**
+
+Tableau Public Page - [Tableau](Tableau Public Page - [Tableau](Tableau Public Page - [Tableau](https://public.tableau.com/app/profile/james.nagel/viz/BookInformation/Dashboard1)))
+
+This project was entirely done on Tableau as the initial data was clean enough to
+move straight to data visualisation
+
+**Skills**: \
+• Data visualisation \
+• Tableau

@@ -8,10 +8,9 @@ Linkedin Page - [Linkedin](https://www.linkedin.com/in/james-nagel-5b84a4206/)
 **Contents**: \
 • Goodreads Book Dataset \
 • Youtube Trending \
-• CNN\
-• Clustering\
-• Linear regression \
-• NLP
+• Office supplies sales \
+• Fish CNN \
+• IMDb Score 
 
 **Packages**: \
 • Pandas \
@@ -20,8 +19,7 @@ Linkedin Page - [Linkedin](https://www.linkedin.com/in/james-nagel-5b84a4206/)
 • Matplotlib \
 • Keras \
 • sklearn \
-• nltk \
-• cv2
+• OpenCV
 
 **Skills**: \
 • EDA \
@@ -29,7 +27,9 @@ Linkedin Page - [Linkedin](https://www.linkedin.com/in/james-nagel-5b84a4206/)
 • Lambda functions \
 • Data visualisation \
 • Pivot Tables \
-• Importing, resizing, and assigning labels to images
+• Importing, resizing, and assigning labels to images \
+• Linear regression \
+• CNN
 
 ## **University Code**
 
