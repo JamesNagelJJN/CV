@@ -55,7 +55,7 @@ Rotten Tomatoes and Metacritic. This prediction was made using linear regression
 
 ## **Office Supplies Sales**
 
-[Tableau Office Supplies Sales](https://public.tableau.com/app/profile/james.nagel/viz/Officesuppliessalesdata_16439401237010/Dashboard1)
+[Office Supplies Sales](https://public.tableau.com/app/profile/james.nagel/viz/Officesuppliessalesdata_16439401237010/Dashboard1)
 
 
 This project was entirely done on Tableau as the initial data was clean enough to
