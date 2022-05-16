@@ -32,6 +32,10 @@ James Nagel
 • Linear regression \
 • CNN
 
+**Current Projects** \
+• Harry Potter books NLP  \
+• Credit Card fraud detection and clustering 
+
 ## **University Code**
 
 **Contents**: \
