@@ -13,6 +13,7 @@ to clean the data and create an effective dashboard on Tablaeu.
 **Skills**: \
 • EDA \
 • Regex \
+• Time Series \
 • Lambda functions 
 
 ## **YouTube Trending**
@@ -27,6 +28,7 @@ for the UK from 2017-2018.
 • EDA \
 • Regex \
 • Lambda functions \
+• Time Series \
 • Data visualisation \
 • Pivot Tables
 
