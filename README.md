@@ -25,6 +25,7 @@ James Nagel
 **Skills**: \
 • EDA \
 • Regex \
+• Time Series \
 • Lambda functions \
 • Data visualisation \
 • Pivot Tables \
