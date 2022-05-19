@@ -26,6 +26,7 @@ James Nagel
 • EDA \
 • Regex \
 • Time Series \
+• Web Scraping \
 • Lambda functions \
 • Data visualisation \
 • Pivot Tables \
