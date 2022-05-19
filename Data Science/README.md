@@ -14,6 +14,7 @@ to clean the data and create an effective dashboard on Tablaeu.
 • EDA \
 • Regex \
 • Time Series \
+• Web Scraping \
 • Lambda functions 
 
 ## **YouTube Trending**
